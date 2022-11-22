@@ -14,7 +14,7 @@ class Kelola extends Controller
      */
     public function index()
     {
-        return View("ketua/kelola");//
+        return View("ketuaeskul/kelola");//
     }
 
     /**

@@ -1,0 +1,463 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .right{
+    width: 30%;
+    margin-top: 12px;
+    margin-left: 12px;
+    
+}
+
+.navbar .left{
+    width: 60%;
+}
+
+.navbutt{
+    float: right;
+}
+
+.navbar .left a{
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.hero-banner h1 {
+    font-size: 48px;
+}
+.hero-banner .btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+.hero-banner .btn-primary {
+    color: #2f2f41;
+    background-color: rgba(1, 164, 121, 0.1);
+    border-color: #01a479;
+}
+.hero-banner .btn:before {
+    content: "";
+    background: #ed5561;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.hero-banner .btn:hover:before {
+    width: 100%;
+}
+
+.kotak{
+    height: auto;
+    width: auto;
+    border: 1px solid #324479;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 70px;
+    
+  }
+
+.well1{
+    letter-spacing: -0.04em;
+    margin-top: 50px;
+    
+}
+
+.well{
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.konten{
+    width: 100%;
+}
+
+.konten .firstpost{
+    display: flex;
+}
+
+.konten .left{
+    margin-left: 40px;
+    width: 50%;
+}
+
+.konten .left p{
+    width: 450px;
+}
+
+.konten .left button{
+    margin-top: 40px;
+    width: 150px;
+    background-color: purple;
+    height: 40px;
+    border: 1px solid purple;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.konten .left button:active{
+    background-color: rgb(78, 0, 78);
+    border: 1 rgb(78, 0, 78);
+}
+
+.konten .right{
+    width: 50%;
+}
+
+.front{
+    
+}
+
+.konten .right .front{
+    display: flex;
+    flex-direction: row;
+}
+
+.konten .right .front .firstimg{
+    background-color: gray;
+    width: 120px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.konten .right .front .secondimg{
+    background-color: gray;
+    width: 120px;
+    height: 190px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.konten .secondpost{
+    display: flex;
+    margin-top: 100px;
+}
+
+.secondpost .right{
+    margin-left: 40px;
+    width: 50%;
+}
+
+.secondpost .right p{
+    width: 450px;
+}
+
+.secondpost .right button{
+    margin-top: 40px;
+    width: 150px;
+    background-color: purple;
+    height: 40px;
+    border: 1px solid purple;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.secondpost .right button:active{
+    background-color: rgb(78, 0, 78);
+    border: 1 rgb(78, 0, 78);
+}
+
+.secondpost .left{
+    width: 50%;
+  }
+  
+.secondpost .left .konten{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+.secondpost .left .imagefirst{
+    background-color: #96A0B5;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-block-start: auto;
+    margin-left: -100px;
+  }
+  
+.secondpost .left .background{
+    width: 300px;
+    height: 300px;
+    background-color: #01a479;
+    float: right;
+    border-radius: 10px;
+  }
+ .thirdpost{
+    margin: 30px;
+ }
+  .thirdpost .bg{
+    width: auto;
+    height: 500px;
+    background-color: #DBDEFA;
+    border-radius: 10px;
+    margin: auto;
+  }
+
+  .thirdpost .img{
+    background-color: #96A0B5;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: -150px;
+  }
+
+  .thirdpost .konten .ewe{
+    width: auto;
+    height: 40px;
+  }
+
+  .thirdpost .konten h6{
+    color: #181945;
+    margin: auto;
+  }
+
+  .thirdpost .konten h1{
+    font-weight: 800;
+  }
+
+  .thirdpost .konten span{
+    font-size: 13px;
+    color: #96A0B5;
+    margin: 30px;
+  }
+
+  .thirdpost .bg .konten .item{
+    align-items: center;
+  }
+
+  .keurdescription1 .fornama1{
+    text-align: left;
+    color: #181945;
+  }
+  
+  .keurdescription1 .keurjudul{
+    text-align: left;
+    color: #181945;
+    font-weight: 1000;
+  }
+  
+  .keurdescription1 .keurjudul h6{
+    font-weight: bold;
+  }
+  
+  .keurdescription1 .fornama1 span{
+    font-size: 10px;
+    color: #181945;
+  }
+  
+  .keurdescription1 .keurnama1 span{
+    font-size: 13px;
+    color: #96A0B5;
+  }
+
+  .fourpost{
+    
+  }
+
+  .fourpost .header{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 40px;
+    display: flex;
+  }
+
+  .fourpost .header .left{
+    width: 60%;
+  }
+
+  .fourpost .header .left label{
+    font-size: 10px;
+    font-weight: 800;
+  }
+
+  .fourpost .header .left h1{
+    font-weight: 600;
+  }
+
+  .fourpost .header .right{
+    width: 40%;
+  }
+
+  .fourpost .header .right .space{
+    height: 40px;
+  }
+
+  .fourpost .header .right p{
+    margin: auto;
+    width: 400px;
+  }
+
+  .fourpost .konten{
+    margin-top: 10px;
+    height: 400px;
+    background-color: #181945;
+    margin: auto;
+  }
+
+  .team{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+  }
+  
+  .card2{
+    height: 400px;
+    width: 250px;
+    overflow: hidden;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+
+  .card2 .eusi .keurgambar{
+    background-color: #ffff;
+   width: 100%;
+    margin-right: 25px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    overflow: auto;
+    
+  }
+  
+  .card2 .eusi .keurgambar img{
+    
+    width: 100%;
+    height: 300px;
+  }
+
+  .buttons {
+    border-style: none;
+    background-color: #96A0B5;
+    width: 110px;
+    height: 38px;
+    border-radius: 13px;
+    color: white;
+    margin-bottom: 30px;
+    
+  }
+  .namateam{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #181945;
+    font-weight: 700;
+
+  }
+
+  .lastpost{
+    background: #DBDEFA;
+    width: 100%;
+    height: 500px;
+    margin-top: 15%;
+    margin-bottom: 30%;
+    
+    
+  }
+
+  .isiphoto{
+    margin-top: -50px;
+  }
+
+  .lastpost .photo{
+    text-align: center;
+    margin: 100px;
+  }
+
+    .lastpost .phototeam{
+      margin: 20px;
+      display: flex;
+    flex-direction: row;
+    margin-left: 17%;
+    margin-right: 10%;
+    margin-top: -50px;
+
+      
+    }
+
+    .card3{
+      height: 350px;
+      width: 300px;
+      overflow: hidden;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+  
+    .card3 .eusi .keurgambar{
+      background-color: #ffff;
+     width: 100%;
+      margin-right: 25px;
+      border-radius: 20px;
+      border: 2px solid transparent;
+      overflow: auto;
+      
+    }
+    
+    .card3 .eusi .keurgambar img{
+      
+      width: 100%;
+      height: 250px;
+    }
+
+    .but{
+        height: 20px;
+        width: auto;
+    }
+
+    .but .in{
+        width: 150px;
+        height: 70px;
+        margin: auto;
+    }
+
+    .but button{
+        
+        width: 100px;
+        background-color: purple;
+        height: 40px;
+        border: 1px solid purple;
+        color: #fff;
+        border-radius: 5px;
+        margin-bottom: 130px;
+
+    }
+
+    .modal-header{
+        background: purple;
+        color: #fff;
+    }
