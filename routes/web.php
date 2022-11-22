@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Dashboard;
+use App\Http\Controllers\AboutVoly;
+use App\Http\Controllers\Prestasi;
+use App\Http\Controllers\Kelola;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +22,7 @@ use App\Http\Controllers\Dashboard;
 // });
 
 Route::resource('dashboard', Dashboard::class);
+Route::resource('aboutVoly', AboutVoly::class);
+Route::resource('prestasi', Prestasi::class);
+Route::resource('kelola', Kelola::class);
 

@@ -66,6 +66,13 @@ body{
     width: 100%;
 }
 
+
+.well1{
+  font-weight: 800;
+  color: #041434;
+  letter-spacing: -0.04em;
+  margin-bottom: 10pxn ;
+}
 .well{
     font-weight: 800;
     color: #041434;
@@ -116,12 +123,285 @@ body{
 }
 
 .loremdua .right{
-    width: 70%;
+    width: 60%;
 }
 
 .loremdua .right p{
-    width: 300px;
-    font-size: 10px;
+    width: 370px;
+    font-size: 13px;
     margin-top: 30px;
     float: right;
+}
+/* ================================================================
+======================= CARD DASHBOARD ============================
+=================================================================== */
+
+
+
+.susunan{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+  }
+  
+  .card{
+    height: 350px;
+    width: 250px;
+    border: 1px solid #324479;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    
+  }
+  
+  .eusi .keurgambar{
+    background-color: #ffff;
+   width: 100%;
+    margin-right: 25px;
+    border-radius: 20px;
+    border: 2px solid #324479;
+    overflow: auto;
+    
+  }
+  
+  .eusi .keurgambar img{
+    
+    width: 100%;
+    height: 195px;
+  }
+  
+  .keurdescription .fornama{
+    text-align: center;
+  }
+  
+  .keurdescription .fornama span{
+    font-size: 20px;
+    color: #181945;
+  }
+
+  .keurdescription .keurnama span{
+    font-size: 13px;
+    color: #96A0B5;
+  }
+  
+  .buleud{
+    background-color: #324479;
+  }
+  
+  .main-text{
+    padding: 10px 0;
+    text-align: center;
+  }
+  .main-text h2{
+    font-size: 30px;
+    color: #324479;
+
+  }
+
+  .keurnama{
+    padding-top: 10px;
+  }
+
+  .buttons {
+    border-style: none;
+    background-color: #96A0B5;
+    width: 110px;
+    height: 38px;
+    border-radius: 13px;
+    color: white;
+    left: 550px;
+    position: absolute;
+    margin-top: 30px;
+    
+    
+  }
+
+  .content{
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  .section3{
+
+    margin: 20px;
+    background-color: #96A0B5;
+    height: 300px;
+    border-radius: 20px;
+    color: #324479;
+    margin: auto;
+  }
+
+
+.section3 .isi3{
+    width: 700px;
+    margin: auto;
+}
+
+.section3  h2{
+    font-weight: 500;
+}
+
+.section3 .fitur h5{
+
+
+
+}
+
+.section3 .deskripsi h2{
+    font-weight: 700;
+}
+
+.isi3 .deskripsi span{
+    width: 370px;
+    font-size: 13px;
+    margin-top: 30px;
+    float: right;
+}
+
+.container {
+  padding: 2rem 0rem;
+}
+
+/* @media (min-width: 576px){
+  .modal-dialog {
+    max-width: 400px;
+    
+    .modal-content {
+      padding: 1rem;
+    }
+  }
+} */
+
+.modal-header {
+  
+}
+/* .close {
+  margin-top: -1.5rem;
+} */
+
+.form-title {
+  margin: -2rem 0rem 2rem;
+}
+
+.btn-round {
+  border-radius: 3rem;
+}
+
+.delimiter {
+  padding: 1rem;  
+}
+
+.social-buttons {
+}
+
+.signup-section {
+  padding: 0.3rem 0rem;
+}
+
+.motivasi{
+
+  margin-left: 40px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.motivasi .left{
+  width: 50%;
+  color: #324479;
+
+}
+
+.motivasi .left .kontendua{
+  width: 50%;
+  font: bold;
+
+}
+
+.motivasi .right{
+  width: 50%;
+}
+
+.motivasi .right .konten{
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.motivasi .right .imagefirst{
+  background-color: #96A0B5;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  justify-content: center;
+  margin-block-start: auto;
+}
+
+.motivasi .right .background{
+  width: 200px;
+  height: 300px;
+  background-color: #01a479;
+  float: right;
+  border-radius: 10px;
+  margin-left: -50px;
+}
+
+.lastkonten{
+  align-items: center;
+  margin: 40px;
+  margin-top: 40px;
+}
+
+.cardlast{
+  height: 350px;
+    width: 250px;
+    border: 1px solid #324479;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header .tittle{
+  margin: auto;
+}
+
+.lastkonten .header h6{
+  color: #181945;
+}
+
+.keurdescription1 .fornama1{
+  text-align: left;
+  color: #181945;
+}
+
+.keurdescription1 .keurjudul{
+  text-align: left;
+  color: #181945;
+  font-weight: 1000;
+}
+
+.keurdescription1 .keurjudul h6{
+  font-weight: bold;
+}
+
+.keurdescription1 .fornama1 span{
+  font-size: 10px;
+  color: #181945;
+}
+
+.keurdescription1 .keurnama1 span{
+  font-size: 13px;
+  color: #96A0B5;
 }
